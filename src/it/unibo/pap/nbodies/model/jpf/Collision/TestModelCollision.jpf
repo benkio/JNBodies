@@ -1,0 +1,12 @@
+target=it.unibo.pap.nbodies.model.jpf.Collision.TestModelCollision
+
+report.console.property_violation=error,snapshot,trace
+
+# deadlock analyzer is a property-specific trace report generator
+listener=.listener.DeadlockAnalyzer
+deadlock.format=essential
+
+
+classpath=bin
+sourcepath=src
+
